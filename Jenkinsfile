@@ -1,6 +1,6 @@
 node{
     stage('Clone'){
-        git 'https://github.com/jhassam/jenkins-helooworld.git'
+        git 'https://github.com/jhassam/jenkins-helloworld.git'
     } 
     stage('Build'){
         sh label: 'compile', script: 'javac Main.java'
